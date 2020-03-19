@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+/* Taylor Gibbs */
+
+/* body */
+
+body {
+    background-color: whitesmoke;
+    max-width: 1500px;
+    min-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* header and menu */
+
+header>img {
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+#topNav {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    height: 30px;
+}
+
+#topNav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#topNav>li {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#topNav>li>a{
+    display: block;
+    height: 100%;
+    text-align: center;   
+    padding-top: 1px; 
+}
+
+/* main content */
+
+#information {
+    clear: both;
+    float: left;
+    width: 70%;
+    margin-bottom: 3cm;
+}
+
+#information::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#information>h1,#information>h2{
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+#information>p,#information>ul{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* news articles */
+
+aside {
+    float: left;
+    width: 29%;
+    margin-top: 50px;
+    
+}
+
+aside::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#articles {
+    padding: 0px;
+    margin: 0px;
+}
+
+#articles>hr {
+    width: 90%;
+}
+
+.news{
+    padding: 2.5%;
+    padding-top: 0px;
+    margin: 5px;
+}
+
+.news .org{
+    float: left;
+    width: 70%;
+    font-size: .8em;
+}
+
+.org>ul{
+    margin-left: 0px;
+    padding-left: 15px;
+}
+
+.artTitle, .description, small{
+    float: left;
+    width: 70%;
+    font-size: .9em;
+}
+.artTitle>a>h3{
+    margin: 0px;
+}
+
+.news img{
+    padding-top: 1cm;
+    padding-left: 2%;
+    width: 28%;
+
+}
+
+/* footer */
+
+.clear {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    width: 100%;
+    height: 1cm;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer>p{
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 7px;
+}

@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+/* Taylor Gibbs */
+
+/* body */
+
+body {
+    background-color: whitesmoke;
+    max-width: 1500px;
+    min-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* header and menu */
+
+header>img {
+    float: left;
+    width: 100%;
+    margin: 0px;
+}
+
+#topNav {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+    height: 30px;
+}
+
+#topNav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#topNav>li {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+#topNav>li>a{
+    display: block;
+    height: 100%;
+    text-align: center;   
+    padding-top: 1px; 
+}
+
+/* faq nav */
+
+#faq{
+    float: left;
+    width: 29.65%;
+    padding-top: 2cm;
+    border: 2px solid darkgrey;
+}
+
+#faq>nav{
+    margin: 30px;
+}
+
+#faq li{
+    margin-top: 30px;
+}
+
+/* pictures */
+
+#images>img{
+    width: 100%;
+}
+#images>img:first-of-type{
+    margin-top: 30px;
+}
+
+#details>img{
+    width: 100%;
+
+}
+
+/* details */
+#details{
+    float: left;
+    width: 70%;
+}
+
+#details>div{
+    margin: 20px;
+}
+
+#details>hr:first-of-type{
+    margin-top: 0px;
+}
+
+div>hr+h3,div>hr+h3+p{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+#goToTop{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 3cm;
+}
+
+#details hr{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#details>div>hr{
+    width: 90%;
+    
+}
+
+/* footer */
+
+.clear {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    width: 100%;
+    height: 1cm;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+footer>p{
+    float: left;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 7px;
+}

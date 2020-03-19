@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* Taylor Gibbs */
+
+table {
+    margin: 30px auto;
+    width: 70%;
+    border-collapse: collapse;
+    border-spacing: 0px;
+    background-color: whitesmoke;
+}
+
+table tr, table td {
+    border: 1px solid black;
+    width: 16.66%;
+    text-align: right;
+    padding: 6px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1.2em;
+}
+
+thead td {
+    font-weight: bold;
+    text-align: center;
+}
+
+tbody>tr>td:first-of-type{
+    font-weight: bold;
+}

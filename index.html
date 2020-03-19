@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Name: Taylor Gibbs -->
+
+    <!-- I honestly don't know if I have met all the criteria because I feel like we didn't get enough time spent learning about layouts.
+    I use a lot of floating elements and have learned a lot about how they work through trial and error.  I also feel like making 
+    separate css files for each page was redundant and most of it could have been combined and linked to all the pages, but it was
+    getting very confusing doing it that way.  I think if I where to start over fresh on this project I could make it a lot cleaner and
+    more organized now that I have learned so much.  Overall I'm happy with the end result. -->
+
+    <meta charset="UTF-8">
+    <title>Coronavirus Tracker</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index_layout.css">
+    <link rel="stylesheet" href="index_style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/cv_header.png" alt="">
+        <nav>
+            <ul id="topNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="usa.html">United States</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="information">
+        <h1>Coronavirus</h1>
+        <p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more
+            severe diseases such as <a href="https://www.who.int/emergencies/mers-cov/en/">Middle East Respiratory
+                Syndrome (MERS-CoV)</a> and <a href="https://www.who.int/csr/sars/en/">Severe Acute Respiratory Syndrome
+                (SARS-CoV)</a>. A novel coronavirus (nCoV) is a new strain that has not been previously identified in
+            humans.</p>
+        <p>Coronaviruses are zoonotic, meaning they are transmitted between animals and people. Detailed investigations
+            found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans.
+            Several known coronaviruses are circulating in animals that have not yet infected humans.</p>
+        <p>Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing
+            difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney
+            failure and even death.</p>
+        <p>Standard recommendations to prevent infection spread include regular hand washing, covering mouth and nose
+            when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing
+            symptoms of respiratory illness such as coughing and sneezing.</p>
+        <h2>COVID-19</h2>
+        <p><a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html">Coronavirus Disease 2019 (COVID-19)</a>
+            is a disease that was identified in Wuhan, China, and is now being spread
+            throughout the world. People are encouraged to take common sense precautions to prevent the spread of all
+            infectious diseases, including COVID-19.</p>
+        <ul>
+            <li>Wash hands frequently with soap and water for at least 20 seconds at a time.</li>
+            <li>Avoid touching your eyes, nose and mouth with unwashed hands.</li>
+            <li>Avoid close contact with people who are ill.</li>
+            <li>Cover your mouth and nose with a tissue when you cough or sneeze.</li>
+            <li>Do not reuse tissue after coughing, sneezing or blowing your nose.</li>
+            <li>Clean and disinfect surfaces that are frequently touched.</li>
+        </ul>
+        <h2>How does COVID-19 spread?</h2>
+        <p>Coronaviruses like COVID-19 are most often spread through the air by coughing or sneezing, through close
+            personal contact (including touching and shaking hands) or through touching your nose, mouth or eyes before
+            washing your hands.</p>
+        <h2>Exposure and symptoms</h2>
+        <p><a href="https://www.cdc.gov/coronavirus/2019-ncov/about/symptoms.html">Symptoms</a> of COVID-19 are fever,
+            cough and shortness of breath. Symptoms may appear 2-14 days after exposure.</p>
+        <p>If you think you may have been exposed to COVID-19 and develop symptoms, you may need to seek medical
+            attention. <a href="https://www.ncdhhs.gov/divisions/public-health/county-health-departments">Call your
+                local health department</a> for further guidance. Before going to a health care provider,
+            clinic, hospital or emergency room, call ahead to describe your symptoms and how you may have been exposed
+            to the virus. In the event of an emergency call 9-1-1.</p>
+        <p id="findOutMore">
+            <a
+                href="https://www.ncdhhs.gov/divisions/public-health/coronavirus-disease-2019-covid-19-response-north-carolina/testing-covid-19">Find
+                out more about current testing options for COVID-19.</a>
+        </p>
+    </div>
+
+    <aside>
+        <div id="articles">
+            <hr>
+            <div class="news">
+                <div class="org">
+                    <ul>
+                        <li id="times">The New York Times</li>
+                    </ul>
+                </div>
+                <div class="artTitle">
+                    <a href="https://www.nytimes.com/2020/03/13/world/coronavirus-news-live-updates.html">
+                        <h3>Live
+                            Coronavirus and Coverage</h3>
+                    </a>
+                </div>
+                <div class="description">
+                    <p>
+                        Stocks rose as President Trump declared a national emergency and said he was making $50 billion
+                        available. The house was set to vote on...
+                    </p>
+                </div>
+                <small>1 hour ago</small>
+                <img src="images/news_trump.jpg" alt="">
+                <div class="clear"></div>
+            </div>
+            <hr>
+            <div class="news">
+                <div class="org">
+                    <ul>
+                        <li id="cnbc">CNBC</li>
+                    </ul>
+                </div>
+                <div class="artTitle">
+                    <a
+                        href="https://www.cnbc.com/2020/03/13/new-york-state-now-has-the-most-coronavirus-cases-in-the-us-as-new-cases-jump-30percent-overnight-to-421.html">
+                        <h3>Gov.
+                            Cuomo says New York has most coronavirus cases in US as new cases jump 30% overnight to 421
+                        </h3>
+                    </a>
+                </div>
+                <div class="description">
+                    <p>
+                        Cuomo said his own daughter is under "precautionary" quarantine after she was possibly exposed
+                        to
+                        the virus.
+                    </p>
+                </div>
+                <small>8 hours ago</small>
+                <img src="images/news_cuomo.jpg" alt="">
+                <div class="clear"></div>
+            </div>
+            <hr>
+            <div class="news">
+                <div class="org">
+                    <ul>
+                        <li id="wdiv">WDIV ClickOnDetroit</li>
+                    </ul>
+                </div>
+                <div class="artTitle">
+                    <a
+                        href="https://www.clickondetroit.com/news/local/2020/03/14/view-possible-wayne-county-coronavirus-covid-19-exposure-locations/">
+                        <h3>VIEW:
+                            Possible Wayne County coronavirus (COVID-19) exposure locations</h3>
+                    </a>
+                </div>
+                <div class="description">
+                    <p>
+                        Places visited by people who have tested positive for coronavirus include locations in Metro
+                        Detroit
+                        and the west side of Michigan.
+                    </p>
+                </div>
+                <small>41 mins ago</small>
+                <img src="images/news_planes.jpg" alt="">
+                <div class="clear"></div>
+            </div>
+            <hr>
+            <div class="news">
+                <div class="org">
+                    <ul>
+                        <li id="komo">Komo News</li>
+                    </ul>
+                </div>
+                <div class="artTitle">
+                    <a
+                        href="https://komonews.com/news/coronavirus/truth-vs-fiction-social-media-fueling-unfounded-coronavirus-rumors">
+                        <h3>Truth
+                            vs. fiction: Social media fueling unfounded coronavirus rumors?</h3>
+                    </a>
+                </div>
+                <div class="description">
+                    <p>
+                        Several unfounded rumors posted to social media about the National Guard planning to place the
+                        entire state on a lockdown or a major local...
+                    </p>
+                </div>
+                <small>21 mins ago</small>
+                <img src="images/news_lab.jpg" alt="">
+                <div class="clear"></div>
+            </div>
+            <hr>
+            <div class="news">
+                <div class="org">
+                    <ul>
+                        <li id="politico">Politico</li>
+                    </ul>
+                </div>
+                <div class="artTitle">
+                    <a href="https://www.politico.com/news/2020/03/13/trump-coronavirus-testing-128971">
+                        <h3>'I don't take
+                            responsibility at all': Trump deflects blame for coronavirus testing fumble</h3>
+                    </a>
+                </div>
+                <div class="description">
+                    <p>
+                        President Donald Trump on Friday deflected blame for his administration’s lagging ability to
+                        test
+                        Americans for the coronavirus outbreak...
+                    </p>
+                </div>
+                <small>3 hours ago</small>
+                <img src="images/news_trump2.jpg" alt="">
+                <div class="clear"></div>
+            </div>
+            <hr>
+        </div>
+    </aside>
+    <div class="clear"></div>
+
+    <!--  -->
+    <footer>
+        <p>Site created and updated by Taylor Gibbs. &#9830; Site last updated: 3/19/2020</p>
+    </footer>
+</body>
+
+</html>

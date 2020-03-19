@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/* Taylor Gibbs */
+
+/* fonts
+font-family: 'IBM Plex Sans', sans-serif;   footer font
+font-family: 'Roboto Slab', serif;          header font
+font-family: 'Muli', sans-serif;            main font
+
+*/
+
+/* general styles */
+html {
+    background-color: #3E3D40;
+}
+
+body{
+    background-color: ivory;
+    font-family: 'Muli', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Roboto Slab', serif;
+}
+
+/* top nav menue */
+#topNav{
+    background-color: darkgray;
+}
+
+#topNav>li:hover{
+    background-color: lightgrey;
+}
+
+#topNav a,#topNav a:active,#topNav a:visited,#topNav a:focus,#topNav a:hover{
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* faq nav */
+
+#faq{
+    font-size: 1.2em;
+    background-color: whitesmoke;
+}
+
+#faq li{
+    list-style-type: square;
+}
+
+#faq a{
+    text-decoration: none;
+    color: black;
+}
+
+#faq a:visited,#faq a:hover{
+    color: darkgrey;
+}
+
+/* detials */
+
+#details p,#details li{
+    font-size: 1.1em;
+}
+
+/* footer */
+footer{
+    background-color: darkgray;
+}
+
+footer>p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: .5cm;
+}

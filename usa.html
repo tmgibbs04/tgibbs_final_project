@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Name: Taylor Gibbs -->
+
+    <meta charset="UTF-8">
+    <title>United States</title>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Muli&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="usa_layout.css">
+    <link rel="stylesheet" href="usa_style.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/cv_header.png" alt="">
+        <nav>
+            <ul id="topNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="data.html">Data</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="usa.html">United States</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="mainContent">
+        <div id="statTitle">
+            <h1>United States Coronavirus Cases</h1>
+            <p>Last updated: 3/19/2020</p>
+        </div>
+        <div class="clear"></div>
+        <div class="row" id="stats">
+            <!-- row 1 quick stats -->
+            <h1 class="label">Coronavirus Cases:</h1>
+            <h1 class="number" style="color: grey;">10,692</h1>
+            <hr>
+            <h1 class="label">Deaths:</h1>
+            <h1 class="number" style="color:crimson;">160</h1>
+            <hr>
+            <h1 class="label">Recovered:</h1>
+            <h1 class="number" style="color: green;">108</h1>
+        </div>
+        <div class="row" id="row1">
+            <!-- row 2 US coverage map -->
+            <div>
+                <h2>US Coronavirus Case Map</h2>
+                <img src="images/cv_unitedStatesInfectionMap.jpg" alt="" id="map">
+                <div class="clear"></div>
+                <small>Image Source <a
+                        href="https://www.livescience.com/coronavirus-updates-united-states.html">livescience.com</a></small>
+            </div>
+        </div>
+        <div class="row" id="row2">
+            <!-- row 3 total cases and deaths -->
+            <div class="columnLeft">
+                <h3>Total Comfirmed Coronavirus Cases in the United States</h3>
+                <img src="images/cv_usaTotalCases.PNG" alt="Total US cases">
+            </div>
+            <div class="columnRight">
+                <h3>Daily New Comfirmed Coronavirus Cases in the United States</h3>
+                <img src="images/cv_usaNewCases.PNG" alt="Daily new US cases">
+            </div>
+        </div>
+        <div class="row" id="row3">
+            <!-- row 4 dailys -->
+            <div class="columnLeft">
+                <h3>Total Coronavirus Deaths in the United States</h3>
+                <img src="images/cv_usaTotalDeaths.PNG" alt="Total US deaths">
+            </div>
+            <div class="columnRight">
+                <h3>Newly Infected vs. Newly Recovered in the United States</h3>
+                <img src="images/cv_usaActiveVsRecovered.PNG" alt="US ActiveVsRecovered">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>Site created and updated by Taylor Gibbs. &#9830; Site last updated: 3/19/2020</p>
+    </footer>
+
+</body>
+
+</html>
